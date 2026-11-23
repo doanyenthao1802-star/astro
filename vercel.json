@@ -1,0 +1,9 @@
+{
+  "framework": null,
+  "outputDirectory": "public",
+  "rewrites": [
+    { "source": "/admin", "destination": "/admin.html" },
+    { "source": "/vnpay-return", "destination": "/api/vnpay-return" },
+    { "source": "/vnpay-ipn", "destination": "/api/vnpay-ipn" }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      { "source": "/api/**", "function": { "functionId": "astro", "region": "asia-southeast1" } },
+      { "source": "/vnpay-return", "function": { "functionId": "astro", "region": "asia-southeast1" } },
+      { "source": "/vnpay-ipn", "function": { "functionId": "astro", "region": "asia-southeast1" } }
+    ]
+  },
+  "functions": [{ "source": "functions", "codebase": "default" }]
+}

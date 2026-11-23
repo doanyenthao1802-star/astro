@@ -1,0 +1,17 @@
+[
+ {
+  "ref": "ASMW8KXWL78DF7DA",
+  "movie": "Đêm Cuối Cùng",
+  "day": "07",
+  "time": "20:00",
+  "seats": [
+   "B9"
+  ],
+  "n": 1,
+  "total": 120000,
+  "coupon": "",
+  "mult": 1,
+  "status": "pending",
+  "createdAt": "2026-11-09T01:25:48.476Z"
+ }
+]
